@@ -19,4 +19,5 @@ jobs:
         with:
           tool: semgrep # Should be checkmarx but the effect of passing --sarif will be the same
           file: cx.sarif
+          pixee-api-url: https://bdoyal.getpixee.com
 
